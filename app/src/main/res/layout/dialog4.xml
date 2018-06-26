@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:digits="1234567890"
+            android:gravity="center_vertical"
+            android:hint="件数" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:hint="体积" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:hint="单重" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:hint="重量" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:hint="备注" />
+
+</LinearLayout>

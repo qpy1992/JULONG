@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item android:id="@+id/action_search"
+
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSearch"
+        android:icon="@android:drawable/btn_plus"
+
+        android:title="查找" />
+    <item android:id="@+id/action_2"
+        android:title="全部物料"
+        android:orderInCategory="80"
+
+        app:showAsAction="always" />
+    <item android:id="@+id/action_xz"
+        android:title="新增"
+        android:orderInCategory="80"
+
+        app:showAsAction="always" />
+    <item android:id="@+id/action_xg"
+        android:title="修改"
+        android:orderInCategory="80"
+
+        app:showAsAction="always" />
+
+
+</menu>

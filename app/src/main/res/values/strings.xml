@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">东方巨龍</string>
+    <string name="menu">菜单</string>
+    <string name="supplier">选择供应商</string>
+    <string name="cus">请选择客户</string>
+    <string name="item">请选择物料</string>
+    <string name="title_activity_stock">StockActivity</string>
+    <string name="pdf_name">东方巨龙国际贸易部采购合同</string>
+    <string name="head1">办公室地址：中国义乌宾王拉链街6区36号三楼</string>
+    <string name="head2">仓库地址：廿三里华盛路228号（富丽达制袜院内）</string>
+    <string name="head3">送货电话：0579-85571032</string>
+    <string name="head4">采购手机：18260581536（江）   13588695953（宋）   18657922331（杨）</string>
+    <string name="QQ">QQ:2260993827</string>
+    <string name="E_mail">E-mail:Julong@126.com</string>
+    <string name="head5">监督电话：13901461763（钱）</string>
+</resources>

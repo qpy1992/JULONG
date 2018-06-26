@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity" >
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传图片" />
+
+        <Button
+            android:id="@+id/cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp">
+        <Button
+            android:text="物料："
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et"
+            android:hint="输入物料名称"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_shape"/>
+        <Button
+            android:id="@+id/btczwl"
+            android:text="查找"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="150dp">
+
+
+        <ImageView
+
+            android:id="@+id/imageView"
+android:background="@drawable/sc"
+          android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:text="未选择物料"
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:gravity="center"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView"
+            />
+        <TextView
+
+            android:id="@+id/tvnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:gravity="center"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvname"
+            />
+
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:numColumns="3"
+        android:layout_height="300dp"
+        android:padding="5dp"></GridView>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/tj"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="提交"
+        android:padding="5dp"
+        android:background="@drawable/btn_shape"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+
+</LinearLayout>
+

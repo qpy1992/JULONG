@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!--<com.jude.rollviewpager.RollPagerView
+        android:id="@+id/roll_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:rollviewpager_play_delay="3000"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp"
+        android:background="#BEBEBE"></GridView>
+</LinearLayout>

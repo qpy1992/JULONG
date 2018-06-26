@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.administrator.julong.activity.KDActivity">
+
+    <include layout="@layout/toolbar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:text="供应商：" />
+
+                <TextView
+                    android:id="@+id/tvkh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="唛头：" />
+
+                <!--<EditText
+                    android:id="@+id/etmt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="唛头"
+                    android:textSize="15sp" />-->
+
+                <Spinner
+                    android:id="@+id/spmt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"></Spinner>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="地址：" />
+
+                <EditText
+                    android:id="@+id/etdz"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="地址"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="跟单员：" />
+
+                <EditText
+                    android:id="@+id/etgd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="跟单员"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="手机：" />
+
+                <EditText
+                    android:id="@+id/etsj"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="手机"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="电话：" />
+
+                <EditText
+                    android:id="@+id/etdh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="电话"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="开单日期：" />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="日期"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btrq"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="修改日期"
+            android:background="@drawable/btn_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="收货日期：" />
+
+        <TextView
+            android:id="@+id/tvsh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="日期"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btsh"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="修改日期"
+            android:background="@drawable/btn_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="物料：" />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="输入物料名称"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btczwl"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_shape"
+            android:text="查找" />
+    </LinearLayout>
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp" />
+
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="品名"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="规格"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="件数"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:id="@+id/tv4"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="箱数"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="总数"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="单价"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="总价"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:id="@+id/tv8"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="体积"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:id="@+id/tv9"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="编号"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:id="@+id/tv10"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="备注"
+                        android:textSize="15sp" />
+                    <!--<TextView
+
+                android:id="@+id/tv11"
+                android:text="删"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="60dp" />
+            <TextView
+
+                android:id="@+id/tv12"
+                android:text="改"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="60dp" />-->
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+                <com.example.administrator.julong.view.SideslipListView
+                    android:id="@+id/lv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </com.example.administrator.julong.view.SideslipListView>
+
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/bttj"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:text="提交"
+                    android:padding="5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/btn_shape"/>
+            </LinearLayout>
+
+</LinearLayout>
